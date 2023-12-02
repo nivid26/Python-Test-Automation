@@ -1,5 +1,7 @@
-echo "Welcome"
+#!/bin/bash
 
-pip install $requirement.txt
+python3 -m venv venv
 
-echo "Done"
+source .venv/bin/activate
+
+python3 tests.py
